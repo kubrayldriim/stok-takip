@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 2500px;
+}
+
+.soltartaf {
+    width: 20%;
+    background-color: #293749;
+    padding: 20px;
+    height: 100%;
+    position: relative; /* added for positioning */
+}
+.solust{
+    height: 120px;
+    width: 100%;
+}
+.logo {
+    float: left;
+    width: 30%;
+    padding: 0%;
+    margin: 0%;
+
+}
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+.site-isim {
+    float: left;
+    width: 70%;
+    padding: 0%;
+    margin: 0%;
+}
+.site-isim h1 {
+
+    color: #fff;
+margin-left: 30px;
+
+}
+
+
+/*-------------------------------------------------------------------------------*/
+
+
+nav {
+  width : 300px; 
+  background: #d9d9d9;
+  margin : 40px auto; 
+}
+
+nav a{
+    text-decoration: none;
+    color:white ;
+}
+span {
+  padding : 30px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+span::after {
+  float: right;
+  right: 10%;
+
+}
+
+.slide {
+  padding: 0;
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+  list-style: none;
+  margin: 0%;
+}
+
+
+.slide li {text-decoration : none;  padding : 30px; }
+
+.slide li a{color: black; }
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: auto;} 
+
+
+/*-------------------------------------------------------------------------------*/
+
+.sagtaraf {
+    flex: 1;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #2d2f31;
+    }
+
+/*-------------------------------------------------------------------------------*/
+
+.aicerik {
+    width: auto;
+    height: auto;
+    padding-right:80px ;
+    padding-left: 80px;
+    color: #a49e9e;
+    font-size: 18px;
+
+}
+.aicerik h1{
+  text-align: center;
+  font-size: 50px;
+}
+.aicerik p{
+  text-align:justify;
+ 
+}
+.aicerik video{
+    width: 30%;
+    height: auto;
+    padding-left: 60px;
+    float: left;
+   margin-right:40px ;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+    
+ .hicerik{
+    width: auto;
+    height: auto;
+    padding: 150px;
+    color: #a49e9e;
+    font-size: 18px;
+ }
+
+ .hicerik p{
+    text-align: justify;
+    width: auto;
+    height: auto;
+
+ }
+
+/*-------------------------------------------------------------------------------*/
+
+.uicerik{
+  width: auto;
+  height: auto;
+  padding: 20px;
+
+}
+
+.icerik-kutu {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.kutu-image {
+  max-width: 100%;
+  height: 200px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.kutu-baslık {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.kutu-fiyat {
+  font-size: 20px;
+  color: #e44d26;
+  font-weight: bold;
+}
+
+
+
+/*-------------------------------------------------------------------------------*/
+
+.sicerik{
+  width: auto;
+  height: auto;
+  padding: 20px;
+
+}
+
+
+.form {
+  background-color: #fff;
+  display: block;
+  padding: 1rem;
+  max-width: 350px;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.form-isimi {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+
+.input-kutu {
+  position: relative;
+}
+
+.input-kutu input, .form button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+}
+
+.input-kutu input {
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.kaydet {
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #4F46E5;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.syaziyeri {
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------*/
+
+
+.iletisimform {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-top: 170px;
+  }
+  
+  .iletisimform  form {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #293749;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .iletisimform label {
+    font-weight: bold;
+  }
+  
+  .iletisimform input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .iletisimform  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------*/
+
+
+
+    footer {
+        margin-top: 30px;
+        background-color: #6e6a6a;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px;
+        height:auto ;
+    }
+    
+    .footer-icerik {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+
+
